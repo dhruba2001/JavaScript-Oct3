@@ -1,8 +1,10 @@
 #include<iostream>
+#include<vector>
+#include<algorithm>
 using namespace std;
-bool cmp (string a, string b)
+bool cmp (const string &a, const string &b)
 {
-    return a.length[]<b.length[];
+    return a.length()>b.length();
 }
 
 int main(){
